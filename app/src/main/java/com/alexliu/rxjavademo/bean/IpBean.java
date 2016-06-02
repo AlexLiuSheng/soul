@@ -1,4 +1,4 @@
-package com.example.maomao.rxjavademo.bean;
+package com.alexliu.rxjavademo.bean;
 
 /**
  * Created by maomao on 2016/4/12.

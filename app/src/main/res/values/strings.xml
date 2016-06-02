@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RxjavaDemo</string>
+    <string name="search_hint">输入搜索的音乐</string>
 </resources>

@@ -1,7 +1,9 @@
-package com.example.maomao.rxjavademo;
+package com.alexliu.rxjavademo.retrofit.service;
 
-import com.example.maomao.rxjavademo.bean.IpBean;
 
+
+
+import com.alexliu.rxjavademo.bean.IpBean;
 
 import java.util.Map;
 

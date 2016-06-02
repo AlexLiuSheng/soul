@@ -1,7 +1,8 @@
-package com.example.maomao.rxjavademo.retrofit;
+package com.alexliu.rxjavademo.retrofit;
 
-import com.example.maomao.rxjavademo.utils.ConstantCode;
 
+
+import com.alexliu.rxjavademo.utils.ConstantCode;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;
@@ -18,6 +19,5 @@ public class MyRetrofit {
     }
     private static class RetrofitHelp{
        private static final Retrofit  retrofit=new Retrofit.Builder().baseUrl(ConstantCode.baseurl).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();
-
     }
 }

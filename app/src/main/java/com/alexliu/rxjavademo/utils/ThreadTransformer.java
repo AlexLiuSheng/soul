@@ -1,13 +1,10 @@
-package com.example.maomao.rxjavademo.utils;
+package com.alexliu.rxjavademo.utils;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.maomao.rxjavademo.bean.IpBean;
-
-import org.xutils.common.util.LogUtil;
 
 import rx.Observable;
 import rx.Scheduler;

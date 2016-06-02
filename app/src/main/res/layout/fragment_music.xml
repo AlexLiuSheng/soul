@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+<android.support.v7.widget.SearchView
+    android:layout_width="match_parent"
+    app:commitIcon="@mipmap/ic_launcher"
+    app:defaultQueryHint="@string/search_hint"
+    android:id="@+id/search_view"
+    app:iconifiedByDefault="false"
+    android:layout_height="wrap_content" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refreshview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerview"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
