@@ -4,12 +4,8 @@
     <item
         android:icon="@android:drawable/ic_menu_compass"
         android:id="@+id/item_ip"
-        android:title="RXJAVA IP"
+        android:title="测试fragment"
         android:checked="true"></item>
-    <item
-        android:icon="@android:drawable/ic_menu_compass"
-        android:id="@+id/item_music"
-        android:title="RXJAVA MUSIC"
-        ></item>
+
 </group>
 </menu>
